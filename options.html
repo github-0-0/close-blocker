@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chrome Close Lock Theme Options</title>
+<link href='options.css' rel='stylesheet' type='text/css' media='screen' />
+</head>
+<body>
+<div id="container">
+	<div class="optSection optButton">
+		<div class="heading"><b>ENABLE/DISABLE LOCK</b></div>
+		<br>
+		<button class="cclButton cclEnabled" type="button" id="cclEnable">ENABLED</button>
+		<br><br>
+	</div>
+	<div id="overlay"></div>
+	<div id="specialBox">LOADING THEME OPTIONS...</div>
+	<div class="optSection">
+		<div class="heading"><b>SELECT THEME</b></div>
+		<br>
+		<div>
+			<select id="thm"></select>
+		</div>
+		<br>
+	</div>
+	<br>
+	<div class="optSection">
+		<div class="heading"><b>START IMAGE</b></div>
+		<br>
+		<div>
+			<img class="thmb" src="images/cclDefault0.jpg">
+			<img class="thmb" src="images/cclDefault1.jpg">
+		</div>
+		<div>
+			<input class="radio" type="radio" name="defImg" id="defImg1" value="1">
+			<div class="radio"></div>
+			<input class="radio" type="radio" name="defImg" id="defImg2" value="2">
+		</div>		
+	</div>
+	<br>
+	<div><button id="save">Save</button></div>
+	<br>
+	<div id="status"></div>
+	<br>
+</div>
+<script src="options.js"></script>
+</body>
+</html>
